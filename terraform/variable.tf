@@ -1,29 +1,29 @@
 variable "credentionals" {
   description = "My credentionals"
-  default = "../keys/gcp_credentials.json"
+  default     = "../keys/gcp_credentials.json"
 }
 
 variable "region" {
   description = "Region"
-  default = "europe-west1"
+  default     = "europe-west1"
 }
 
 variable "project" {
   description = "GCP Project"
-  default = "nyc-motor-collisions-420121"
+  default     = "nyc-motor-collisions-420121"
 }
 
 variable "location" {
   description = "Project Location"
-  default = "EU"
+  default     = "EU"
 }
 
-variable "gcp_bucket_name"{
-    description = "Storage Bucket Name"
-    default = "motor-vehicle-collisions-bucket"
+variable "gcp_bucket_name" {
+  description = "Storage Bucket Name"
+  default     = "motor-vehicle-collisions-bucket"
 }
 
 variable "gcs_strorage_class" {
   description = "Bucket Storage Class"
-  default = "STANDARD"
+  default     = "STANDARD"
 }
