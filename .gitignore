@@ -4,3 +4,4 @@ keys/gcp_credentials.json
 # Ignore any generated files or directories
 terraform/.terraform
 terraform/*.hcl
+terraform/*.tfstate
