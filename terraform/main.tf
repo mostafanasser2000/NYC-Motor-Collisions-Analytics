@@ -27,3 +27,14 @@ resource "google_storage_bucket" "collisions-bucket" {
     }
   }
 }
+resource "google_bigquery_dataset" "dataset" {
+  dataset_id                  = "nyc_motor_vehicle_collisions"
+  friendly_name               = "NYC Motor Vehicle Collisions"
+  description                 = "NYC Motor Vehicle Collisions dataset"
+  location                    = var.location
+  default_table_expiration_ms = 2592000000
+
+  labels = {
+    env = "default"
+  }
+}
