@@ -5,3 +5,4 @@ keys/gcp_credentials.json
 terraform/.terraform
 terraform/*.hcl
 terraform/*.tfstate
+terraform/*.backup
