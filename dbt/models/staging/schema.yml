@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: staging
+    database: nyc-motor-collisions-420121
+    schema: nyc_motor_vehicle_collisions_raw
+    tables:
+      - name: crashes
+      - name: persons
