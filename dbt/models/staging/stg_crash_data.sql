@@ -9,7 +9,7 @@ select
     -- timestamp
     cast(crash_datetime as timestamp) as crash_datetime,
 
-    -- crash info
+    -- crash info 
     borough,
     coalesce(cast(number_of_persons_injured as integer), 0) as number_of_persons_injured,
     coalesce(cast(number_of_persons_killed as integer), 0) as number_of_persons_killed,
@@ -31,12 +31,3 @@ select
     vehicle_type_code_5
 
 from crashes
-
-
-
-
-{% if var('is_test_run', default=true) %}
-
-  limit 100
-
-{% endif %}
