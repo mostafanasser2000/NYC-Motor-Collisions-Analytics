@@ -12,7 +12,7 @@ the chosen datasets are from NYC Open Data Site which are [Motor Vehicle Collisi
 
 [DashBoard Link](https://lookerstudio.google.com/reporting/62a98bd3-48cd-4e50-8aa2-fe19651e546a)
 
-![](imgs/dashboard_perview.png "Dashboard")
+![](imgs/dashbord.png "Dashboard")
 
 ## Project Implementation
 
