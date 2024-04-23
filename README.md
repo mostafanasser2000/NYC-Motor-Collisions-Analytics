@@ -12,25 +12,25 @@ the chosen datasets are from NYC Open Data Site which are [Motor Vehicle Collisi
 
 [DashBoard Link](https://lookerstudio.google.com/reporting/62a98bd3-48cd-4e50-8aa2-fe19651e546a)
 
-![](imgs/dashbord.png "Dashboard")
+![](imgs/dashboard-preview.png "Dashboard")
 
 ## Project Implementation
 
 ### Terraform
 
-we use Terraform to create resources in GCP, which are Google Cloud Storage Bucket, and BigQuery datasets
+Terraform is used to create resources in GCP, which are Google Cloud Storage Bucket, and BigQuery datasets
 
 ### MAGE
 
-we use MAGE as data orchestration to load data from NYC Open Data and load it to Google Cloud Storage and BigQuery
+MAGE is used as data orchestration to load data from NYC Open Data and load it to Google Cloud Storage and BigQuery
 
 ### DBT
 
-we use the DBT platform to make some transformations on data that is stored in BigQuery and create dimension and fact tables.
+DBT platform is used to make some transformations on data that is stored in BigQuery and create dimension and fact tables.
 
 ### Looker Studio
 
-we use Looker Studio to create dashboards on the fact tables that we create using DBT.
+Looker Studio is used to create dashboards on the fact tables that we create using DBT.
 
 ### Project workflow
 
